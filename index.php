@@ -1,6 +1,7 @@
 <html>
 <head></head>
 <body>
+<?php
 $url = "https://www.google.co.jp/";
 //$url = "http://www.yahoo.co.jp";
 $ch = curl_init();
@@ -11,5 +12,6 @@ $result = curl_exec( $ch );
 curl_close($ch);
 
 echo $result;
+?>
 </body>
 </html>
